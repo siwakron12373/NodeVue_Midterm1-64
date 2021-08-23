@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Show User</h1>
+    <h1>Show Song</h1>
     <p>id: {{ userId }}</p>
-    <p>ชื่อ - นามสกุล {{ user.name }} - {{ user.lastname }}</p>
+    <p>ชื่อเพลง {{ user.name }} - {{ user.lastname }}</p>
     <p>email: {{ user.email }}</p>
-    <p>password: {{ user.password }}</p>
+    <p>ชื่อนักร้อง: {{ user.password }}</p>
   </div>
 </template>
 <script>
